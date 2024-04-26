@@ -117,6 +117,7 @@ function getTranslation(key) {
 
 
                 btn_toggle = document.createElement('button');
+                btn_toggle.innerText = "KICK 🟩";
                 btn_toggle.innerHTML = createBtn_toggle(1);
                 let inner_nav = div_nav.querySelector('div.top-nav__menu > div:last-child');
                 inner_nav.prepend(btn_toggle);
